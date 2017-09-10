@@ -1,0 +1,119 @@
+body {  margin: 0;  padding: 0;  font-size: 0.12rem;line-height: 0.2rem;background: #fcfcfc;font-family: "microsoft yahei";color: #555;-moz-user-select: none; /*火狐*/  -webkit-user-select: none;  /*webkit浏览器*/  -ms-user-select: none;   /*IE10*/  -khtml-user-select: none; /*早期浏览器*/  user-select: none;}
+ul,li{list-style: none;padding: 0;}
+*{padding: 0;margin: 0;}
+a{text-decoration: none;  margin: 0;  padding: 0;color: #555; }
+p,span,i,em{  margin: 0;  padding: 0;  font-style: normal;  font-weight: normal;  }
+tr,td{  margin: 0;  padding: 0;  }
+h1,h2,h3,h4,h5,h6,b,strong{font-size: 0.12rem;font-weight: normal;}
+input,textarea{font-size: 0.12rem;outline: none;background: none;border: 0;resize: none;width: 100%;font-family: "microsoft yahei";-webkit-appearance: none;}
+
+
+/************* 首页***********/
+.top{  overflow: hidden;  margin-bottom: 0.1rem;  }
+.top img{  display: inline-block;  float: left;  margin-top: 0.1rem;  margin-left: 0.1rem;  }
+.top h3{  float: left;  font-size: 0.2rem;  margin-top: 0.2rem;  margin-left: 0.1rem;  }
+.swiper-slide img{  width: 100%;  }
+.swiper-container{  height: 0.7rem;  }
+.chiose-kuai{  float: left;  background: #45c0c5;  }
+.chiose-wen{  float: left;  background: #f3b467;  }
+.chiose-duo{  float: left;  background: #80c246;  }
+.chiose-hao{  float: left;  background: #81a8eb;  }
+.call-phone{  overflow: hidden;  background: #fff;  margin: 0.1rem 0;  }
+.call-phonebox{  overflow: hidden;  width: 90%;  margin: 0 auto;  }
+.call-text{  float: left;  width: 49%;  height: 0.8rem;  text-align: center;  line-height: 0.8rem;  font-size: 0.21rem;  color: #FDA700;  font-style: oblique;  margin-right: 0.03rem;  font-weight: 800;  }
+.call-p{  float: left;  width: 49%;  text-align: center;  border: 1px solid;  margin-top: 0.1rem;  font-size: 0.15rem;  border-radius: 0.12rem;  background: #FDA700;  color: #fff;  }
+.call-p h3{  float: left;  font-size: 0.2rem;  line-height: 0.5rem;  }
+.call-p h3 i{  width: 0.5rem;  height: 0.5rem;  display: block;  float: left;  }
+.chiose ul li{     float: left;  width: 19%;  margin: 0.01rem; }
+/*background: #f3f3f3;  width: 18%;  text-align: center;  line-height: 0.88rem;  margin: 0 0.03rem;  border-radius: 0.5rem;  height: 0.56rem;*/
+.chiose ul li img{
+    width: 100%;
+}
+.chiose {  overflow: hidden;  }
+.chiose ul{  overflow: hidden;  background: #fff;  padding: 0.1rem 0;  }
+.fl{  float: left;  }
+.identity{  overflow: hidden;  text-align: center;  margin: 0.1rem 0;  background: #fff;  padding: 0.1rem 0;  }
+.list{  width: 25%;  }
+.adviser{  background: #fff;  }
+.adviser-tit{  height: 0.3rem;  line-height: 0.3rem;  border-bottom: 1px solid #ddd;  }
+.adviser-tit h3{  font-size: 0.16rem;  }
+.adviser-tit h3 i{  width: 0.05rem;  height: 0.15rem;  display: block;  float: left;  background: #FDA700;  margin: 0.08rem 0.1rem 0 0.1rem;  }
+.adviser-cont{  margin-top: 0.1rem;  }
+.adviser-cont ul li{  overflow: hidden;  margin: 0.1rem;  border-bottom: 1px solid #ddd;  }
+.adviser-cont-l{  float: left;  }
+.adviser-cont-l img{  float: left;  margin: 0.05rem;  }
+.adviser-cont-l h3{  float: left;  font-size: 0.16rem;  margin-top: 0.1rem;  }
+.adviser-cont-l p{  width: 2rem;  margin-top: 0.45rem;  }
+.adviser-cont-r{  float: right;  margin-right: 0.1rem;  margin-top: 0.3rem;  }
+.adviser-cont-r h3{  width: 0.8rem;  text-align: center;  border: 1px solid #FDA700;  background: #FDA700;  color: #fff;  }
+.adviser-next{  text-align: center;  font-size: 0.16rem;  padding-bottom: 0.1rem;  }
+.su-case{  background: #fff;  margin: 0.1rem 0;  }
+.mess{  background: #fff;  margin: 0.1rem 0;  }
+.mess-cont ul li{  list-style: initial;  text-align: left;  width: 84%;  margin: 0 auto;  margin-top: 0.05rem;  margin-bottom: 0.05rem;  }
+.mess-cont{  overflow: hidden;  }
+.su-case-contbox{  overflow: hidden;  margin: 0.1rem 0;  padding-bottom: 0.1rem;  }
+.su-case-cont{  overflow: hidden;  }
+.su-case-contfl{  float: left;  }
+.su-case-contfr{  float: right;  width: 80%;  }
+.chiose-sheng{      float: left;  background: #cc81eb;  }
+.suspend{  overflow: hidden;  position: fixed;  bottom: 0;  width: 100%;  }
+.suspend-fl{  float: left;      width: 1.6rem;  text-align: center;  background: #07a1e5;  color: #fff;  font-size: 0.15rem;  height: 0.5rem;  line-height: 0.5rem;  }
+.suspend-fr{  float: right;      width: 1.6rem;  text-align: center;  background: #fda700;  font-size: 0.15rem;  color: #fff;  height: 0.5rem;  line-height: 0.5rem;  }
+
+
+/*********** 咨询***********/
+
+.ad-tit{  background: #fff;  margin-top: 0.1rem;  border-bottom: 1px solid #ddd;  overflow: hidden;  }
+.ad-tit h3{  font-size: 0.16rem;  margin: 0.1rem 0 0 0.1rem;  font-weight: 600;  }
+.ad-tit h4{  margin: 0.1rem 0 0.1rem 0.1rem;  }
+.ad-tit h4 span{  margin: 0.1rem;  }
+.ad-cont{  background: #fff;     overflow: hidden;}
+.ad-cont-box{ margin: 0 0.1rem;  margin-top: 0.1rem; }
+.details{  margin-bottom: 0.5rem;  text-align: center;  background: #fff;  overflow: hidden;  margin-top: 0.1rem;  }
+.details h3{  font-size: 0.16rem;  margin: 0.1rem 0;  }
+.details h4{  font-size: 0.11rem;  }
+
+
+/*********** 我有房系列***********/
+.list-tit,.list-need,.list-chans,.list-cont,.list-for{  background: #fff;  border-bottom: 1px solid #ddd;  overflow: hidden;  }
+.list-tit h3,.list-need h3,.list-chans h3{  margin: 0.1rem;  font-size: 0.15rem;  color: #FDA700;  }
+.list-cont p,.list-need p,.list-chans p,.list-for p{  margin: 0.1rem;  }
+.list-for ul li{  float: left; width: 45%;  margin-left: 0.1rem; }
+.list-for ul{  overflow: hidden;  }
+.sj1{  background: url("../images/sj1.png") no-repeat;  width: 0.1rem;  height: 0.1rem;  display: inline-block;  }
+
+
+
+
+/*********** 我有房系列***********/
+.assem-tit{  background: #fff;  margin-top: 0.1rem;  overflow: hidden;  margin-bottom: 0.1rem;  }
+.assem-fl,.assem-fr{  float: left;  }
+.assem-fl{  margin-right: 0.1rem;  }
+.assem-t-c{  overflow: hidden;  width: 2.8rem;  margin: 0 auto;  margin-top: 0.1rem;  margin-bottom: 0.1rem;  }
+.sub{  float: left;  clear: both;  width: 1rem;  background: #07A1E5;  height: 0.3rem;  text-align: center;  line-height: 0.3rem;  margin: 0 0.3rem;  border-radius: 0.1rem;  color: #ffffff;  }
+.chat{  float: left;  width: 1rem;  height: 0.3rem;  text-align: center;  line-height: 0.3rem;  margin: 0 0.1rem;  border-radius: 0.1rem;  background: #fda700;  color: #fff;  }
+.assem-t-b{  overflow: hidden;  margin-bottom: 0.1rem;  }
+.assem-cont{  background: #fff;  overflow: hidden;  }
+.assem-cont-tit{  overflow: hidden;  border-bottom: 1px solid #ddd;  }
+.assem-cont-tit ul li{  float: left;  width: 1.4rem;  text-align: center;  margin: 0.1rem;  font-size: 0.14rem;  }
+.hover{  color: #07A1E5;  }
+.product ul li{  float: left;  }
+.product-u{  width: 82%;  margin: 0 0.3rem;  overflow: hidden;  margin-top: 0.01rem;  margin-bottom: 0.1rem;  }
+.product-u-l{  margin: 0.05rem 0;  border-bottom: 1px solid #ddd;  }
+
+
+/*********** 高额贷款***********/
+.pret-tit{  background: url("../images/bjtwoyc.png") no-repeat;  height: 1rem;  overflow: hidden;  }
+.pret-tit h3{  width: 80%;  margin: 0 auto;  margin-top: 0.15rem;  font-size: 0.15rem;  color: #fff;  }
+.pret-tit h4{  width: 42%;  margin: 0 auto;  margin-top: 0.13rem;  font-size: 0.19rem;  color: #fff;  }
+.pret-list ul{  overflow: hidden;  margin: 0.1rem 0;  }
+.pret-list ul li{  float: left;  width: 33.3%;  text-align: center;  }
+.pret-list ul li img{  width: 0.6rem;  }
+.pret-list{  overflow: hidden;  background: #fff;  border-bottom: 1px solid#ddd;  }
+.pret-bti{  background: #fff;  overflow: hidden;  border-bottom: 1px solid#ddd;  }
+.pret-bti h3{  font-size: 0.16rem;  margin: 0.1rem;  }
+.pret-bti h4{  margin: 0.1rem;  }
+.cont-tit{  text-align: center;  }
+.cont{  background: #fff;  overflow: hidden;  border-bottom: 1px solid#ddd;  }
+.cont-t p{  margin: 0.1rem;  }
+.cont-ft p{  margin: 0.1rem;  }

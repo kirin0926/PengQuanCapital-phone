@@ -1,0 +1,80 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>贷款申请</title>
+    <!-- mui-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script type="text/javascript" src="assets/js/rem.js"></script>
+    <script src="assets/js/jquery-1.10.1.min.js"></script>
+</head>
+<style>
+    input{    border: 1px solid #ddd;  height: 0.4rem;  padding: 0.1rem; }
+    .cont{  background: #fff;  overflow: hidden;  }
+    .name,.sex,.compt,.money,.phone,.yanzheng{  margin: 0.1rem;  }
+    .sex select,.compt select{
+        width: 100%;
+        height: 0.4rem;
+        font-size: 0.12rem;
+        padding: 0.1rem;
+    }
+    .yanzheng input{
+        width: 48%;
+    }
+</style>
+<body>
+
+<div class="cont">
+    <div class="name">
+        <input type="text" placeholder="您的姓氏" />
+    </div>
+    <div class="sex">
+        <select name="" id="">
+            <option value="sex">选择性别</option>
+            <option value="sex">男</option>
+            <option value="sex">女</option>
+        </select>
+    </div>
+    <div class="compt">
+        <select name="" id="">
+            <option value="sex">选择分公司</option>
+            <option value="sex">大屯路东</option>
+            <option value="sex">均可</option>
+        </select>
+    </div>
+    <div class="money">
+        <input type="text" placeholder="贷款金额（万元）" />
+    </div>
+    <div class="phone">
+        <input type="text" placeholder="输入手机号" />
+    </div>
+    <div class="yanzheng">
+        <input type="text" placeholder="输入验证码" disabled="disabled" style="    margin-right: 0.1rem;"/><input type="submit" value="获取验证码"/>
+    </div>
+    <div class="phone">
+        <input type="submit" value="申请提交" style="color: #f3f3f3; background: #FDA700;"/>
+    </div>
+</div>
+
+<div class="details">
+    <h3>晋商易贷</h3>
+    <h4>Copyright 2011-2016</h4>
+    <h4>Edai Corporation. All Rights Reserved</h4>
+    <h4> 京ICP备16035200号-1        </h4>
+</div>
+
+
+<div class="suspend">
+    <a href="SignIn.html">
+        <div class="suspend-fl"><i></i>立刻申请</div>
+    </a>
+    <a href="tel:4006585809">
+        <div class="suspend-fr"><i></i>立刻咨询</div>
+    </a>
+</div>
+
+
+</body>
+</html>

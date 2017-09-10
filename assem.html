@@ -1,0 +1,126 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>顾问详情</title>
+    <!-- mui-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script type="text/javascript" src="assets/js/rem.js"></script>
+    <script src="assets/js/jquery-1.10.1.min.js"></script>
+</head>
+<style>
+    ul li h3{
+        font-size: 0.16rem;
+    }
+</style>
+<body>
+<div class="assem-tit">
+    <div class="assem-t-c">
+        <div class="assem-fl">
+            <img src="assets/images/list-head.png" alt=""/>
+        </div>
+        <div class="assem-fr">
+            <h3>余珍丽</h3>
+            <p>
+                北京最大贷款公司主做
+                <br/>
+                成功办理：<i>961</i>笔
+                <br/>
+                从业时间：<i>3</i>年
+            </p>
+        </div>
+    </div>
+    <div class="assem-t-b">
+        <div class="sub">立刻申请</div>
+        <div class="chat">立刻咨询</div>
+    </div>
+</div>
+<div class="assem-cont">
+    <div class="assem-cont-tit">
+        <ul>
+            <li id="chanp" class="hover" onclick="chanpin()">贷款产品</li>
+            <li id="jies" onclick="jieshao()">顾问介绍</li>
+        </ul>
+    </div>
+    <div class="product">
+        <ul class="product-u">
+            <li class="product-u-l">
+                <h3>信用贷款</h3>
+                <ul>
+                    <li style="    margin-right: 0.1rem;">贷款额度:10-500万元</li>
+                    <li>月利率:0.65%-1.10%</li>
+                    <li style="    margin-right: 0.25rem;">贷款期限:随借随还</li>
+                    <li>还款方式:面议</li>
+                </ul>
+            </li>
+            <li class="product-u-l">
+                <h3>房产贷款</h3>
+                <ul>
+                    <li style="    margin-right: 0.1rem;">贷款额度:10-500万元</li>
+                    <li>月利率:0.65%-1.10%</li>
+                    <li style="    margin-right: 0.25rem;">贷款期限:随借随还</li>
+                    <li>还款方式:面议</li>
+                </ul>
+            </li>
+            <li class="product-u-l">
+                <h3>汽车贷款</h3>
+                <ul>
+                    <li style="    margin-right: 0.1rem;">贷款额度:10-500万元</li>
+                    <li>月利率:0.65%-1.10%</li>
+                    <li style="    margin-right: 0.25rem;">贷款期限:随借随还</li>
+                    <li>还款方式:面议</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="introduce" style="display: none;">
+        <ul  class="product-u">
+            <li class="product-u-l">
+                <h3>业务区域</h3>
+                <h4>东城、西城、朝阳、丰台、石景山、海淀</h4>
+            </li>
+            <li class="product-u-l">
+                <h3>业务范围</h3>
+                <h4>企业贷款</h4>
+            </li>
+            <li class="product-u-l">
+                <h3>个人介绍</h3>
+                <h4>只做（北京范围）信用贷款（打工工资）,房产抵押,短期拆借,企业融资。贷款审批简单,额度高,放款快.</h4>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<script>
+    function chanpin(){
+        $(".product").css("display","block");
+        $(".introduce").css("display","none");
+        $("#chanp").attr("class","hover");
+        $("#jies").attr("class","");
+    }
+    function jieshao(){
+        $(".product").css("display","none");
+        $(".introduce").css("display","block");
+        $("#chanp").attr("class","");
+        $("#jies").attr("class","hover");
+    }
+</script>
+<div class="details">
+    <h3>晋商易贷</h3>
+    <h4>Copyright 2011-2016</h4>
+    <h4>Edai Corporation. All Rights Reserved</h4>
+    <h4> 京ICP备16035200号-1        </h4>
+</div>
+
+<div class="suspend">
+    <a href="SignIn.html">
+        <div class="suspend-fl"><i></i>立刻申请</div>
+    </a>
+    <a href="tel:4006585809">
+        <div class="suspend-fr"><i></i>立刻咨询</div>
+    </a>
+</div>
+</body>
+</html>
